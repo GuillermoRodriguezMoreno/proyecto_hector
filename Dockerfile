@@ -4,6 +4,6 @@ RUN mvn clean package -DskipTests
 
 
 FROM amazoncorretto:21-alpine
-COPY --from=build /target/api_rest.jar api_rest.jar
+COPY --from=build /target/guestifyapi.jar guestifyapi.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar","api_rest.jar"]
+ENTRYPOINT ["java", "-jar","guestifyapi.jar"]

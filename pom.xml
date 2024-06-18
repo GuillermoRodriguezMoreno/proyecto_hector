@@ -85,13 +85,12 @@
     </dependencies>
 
     <build>
-        <finalName>api_rest</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <finalName>guestifyapi</finalName>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
