@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.iesvdm</groupId>
-    <artifactId>api-rest</artifactId>
+    <artifactId>api_rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>api-rest</name>
-    <description>api-rest</description>
+    <name>api_rest</name>
+    <description>api_rest</description>
     <properties>
         <java.version>21</java.version>
     </properties>
