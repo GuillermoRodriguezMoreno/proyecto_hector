@@ -85,6 +85,8 @@
     </dependencies>
 
     <build>
+        <finalName>api_rest</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
